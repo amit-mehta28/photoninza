@@ -220,7 +220,7 @@
 
   /* Home Page */
   .home {
-    @apply sm:flex-center hidden h-72 flex-col gap-4 rounded-[20px] border bg-banner bg-cover bg-no-repeat p-10 shadow-inner;
+    @apply sm:flex-center hidden h-72 flex-col gap-4 rounded-[20px] border bg-black/80 bg-cover bg-no-repeat p-10 shadow-inner;
   }
 
   .home-heading {
@@ -359,6 +359,14 @@
 
   .transformed-placeholder {
     @apply flex-center p-14-medium h-full min-h-72 flex-col gap-5 rounded-[16px] border border-dashed bg-purple-100/20 shadow-inner;
+  }
+
+  .bg-purple-gradient{
+    @apply bg-black
+  }
+
+  .text-purple-500{
+    @apply text-black
   }
 }
 
